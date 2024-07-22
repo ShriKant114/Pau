@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Search</title>
+    <script>
+        function performSearch() {
+            var topics = [
+                "Data Structures",
+                "Algorithms",
+                "C Programming",
+                "C++ Programming",
+                "Java Programming",
+                "Python Programming",
+                "Machine Learning",
+                "Operating Systems",
+                "Database Management Systems",
+                "Computer Networks",
+                "System Design",
+                "Interview Preparation",
+                "Dynamic Programming",
+                "Graph Algorithms",
+                "Greedy Algorithms",
+                "Tree Data Structures",
+                "Binary Search",
+                "Sorting Algorithms",
+                "Searching Algorithms",
+                "Linked List",
+                "Stack Data Structure",
+                "Queue Data Structure",
+                "Hashing",
+                "Heap Data Structure",
+                "Trie Data Structure",
+                "Bit Manipulation",
+                "Recursion",
+                "Backtracking",
+                "String Algorithms",
+                "Object Oriented Programming"
+            ];
+            var searchEngine = "https://www.bing.com/search?q=";
+            for (var i = 0; i < topics.length; i++) {
+                window.open(searchEngine + encodeURIComponent("GeeksforGeeks " + topics[i]), '_blank');
+            }
+        }
+    </script>
+</head>
+<body onload="performSearch()">
+    <h1>Automated Search in Progress...</h1>
+</body>
+</html>
