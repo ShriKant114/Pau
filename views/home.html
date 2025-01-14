@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+        <meta http-equiv="Cache-Control" content="no-store">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    </head>
+
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 p-4 shadow-md">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="text-white text-2xl font-semibold">Feel Free Share</div>
+            <div>
+                <!-- Logout Button -->
+                <!-- Logout Button in Navbar -->
+<form action="/logout" method="get">
+    <button type="submit" class="text-white text-lg hover:text-blue-300 mx-3 bg-red-500 px-4 py-2 rounded-lg">Logout</button>
+</form>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('https://via.placeholder.com/1500x600');">
+        <div class="bg-black bg-opacity-50 p-8 text-center text-white">
+            <h1 class="text-4xl md:text-5xl font-bold">Welcome to Feel Free Share</h1>
+            <p class="mt-4 text-lg md:text-xl">Share your files securely with anyone, anytime!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800">How it Works</h2>
+            <p class="mt-4 text-lg text-gray-600">Upload your files and share them with a unique access code.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="about-card bg-blue-500 text-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">1. Upload</h3>
+                    <p class="mt-4">Easily upload your files with just a few clicks.</p>
+                </div>
+                <div class="about-card bg-green-500 text-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">2. Share</h3>
+                    <p class="mt-4">Get a unique access code and share it with others.</p>
+                </div>
+                <div class="about-card bg-yellow-500 text-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">3. Download</h3>
+                    <p class="mt-4">The receiver can easily access and download the file using the code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 py-8">
+        <div class="max-w-7xl mx-auto text-center text-white">
+            <p>&copy; 2025 Feel Free Share. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
